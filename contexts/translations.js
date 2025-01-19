@@ -1,0 +1,31 @@
+export const translations = {
+    tr: {
+      app: "Bayrak Tahmini Oyunu",
+      settings: "Ayarlar",
+      themeChange: "Temayı Değiştir",
+      languageSelection: "Dil Seçimi",
+      game: "Oyuna Başla",
+      statistics: "İstatistikler",
+      totalGuesses: "Toplam Tahmin",
+      correctGuesses: "Doğru Tahmin",
+      accuracy: "Başarı Oranı",
+      question: "Bu bayrak hangi ülkeye ait?",
+      correct: "Doğru",
+      incorrect: "Yanlış",
+    },
+    en: {
+      app: "Flag Guessing Game",
+      settings: "Settings",
+      themeChange: "Change Theme",
+      languageSelection: "Language Selection",
+      game: "Start Game",
+      statistics: "Statistics",
+      totalGuesses: "Total Guesses",
+      correctGuesses: "Correct Guesses",
+      accuracy: "Accuracy Rate",
+      question: "Which country does this flag belong to?",
+      correct: "Correct",
+      incorrect: "Incorrect",
+    },
+  };
+  
