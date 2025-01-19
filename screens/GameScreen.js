@@ -23,15 +23,16 @@ export default function GameScreen({ navigation }) {
   }, [language]);
 
   const fetchCountryAndOptions = async (retryCount = 0) => {
-    setLoading(true);
+    if (retryCount === 0) setLoading(true); // İlk denemede yükleme durumunu başlat
+  
     try {
       const response = await axios.get('https://restcountries.com/v3.1/all', {
-        timeout: 10000, // Timeout süresi 10 saniye
+        timeout: 15000, // Timeout süresi 15 saniye
       });
-
+  
       const countries = response.data;
       const correctCountry = countries[Math.floor(Math.random() * countries.length)];
-
+  
       const incorrectCountries = new Set();
       while (incorrectCountries.size < 3) {
         const randomCountry = countries[Math.floor(Math.random() * countries.length)];
@@ -39,25 +40,23 @@ export default function GameScreen({ navigation }) {
           incorrectCountries.add(randomCountry);
         }
       }
-
+  
       const allOptions = [...incorrectCountries, correctCountry].sort(() => Math.random() - 0.5);
       setCountry(correctCountry);
       setOptions(allOptions);
       setSelectedOption(null);
-
+  
       // Doğru cevabı seçilen dilde ayarla
       setCorrectAnswer(translateCountryName(correctCountry));
     } catch (error) {
-      console.error('Error fetching countries:', error);
-
-      // Yeniden deneme mekanizması
       if (retryCount < 3) {
-        setTimeout(() => fetchCountryAndOptions(retryCount + 1), 2000 * (retryCount + 1));
+        setTimeout(() => fetchCountryAndOptions(retryCount + 1), 2000 * (retryCount + 1)); // Yeniden deneme
       } else {
         alert('API bağlantısında sorun oluştu. Lütfen internet bağlantınızı kontrol edin ve tekrar deneyin.');
+        setLoading(false); // Hata alındığında yükleme durumu kapatılır
       }
     } finally {
-      setLoading(false);
+      if (retryCount === 0) setLoading(false); // Yükleme durumunu ilk istekte kapat
     }
   };
 
