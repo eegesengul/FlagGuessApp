@@ -121,4 +121,3 @@ Eğer Expo Go uygulamasını kullanıyorsanız, aşağıdaki adımlarla projeniz
 1. `expo start` komutunu çalıştırın.
 2. Geliştirme ortamında oluşturulan QR kodu tarayın.
 3. Expo Go uygulamasında projeniz otomatik olarak yüklenecektir.
-=======
