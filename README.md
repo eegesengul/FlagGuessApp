@@ -26,7 +26,7 @@ Flag Guess App, dünya ülkelerinin bayraklarını tanıma ve öğrenme üzerine
     </td>
     <td align="center">
       <img src="./assets/images/oyunekranı.jpg" alt="Oyun Ekranı" width="150" />
-      <br>Oyun Ekranı
+      <br>Oyun Ekranı 1
     </td>
     <td align="center">
       <img src="./assets/images/oyunekranı1.jpg" alt="Oyun Ekranı 2" width="150" />
@@ -49,8 +49,6 @@ Flag Guess App, dünya ülkelerinin bayraklarını tanıma ve öğrenme üzerine
   </tr>
 </table>
 
-=======
-
 ## Özellikler
 - **Bayrak Tahmin Oyunu**: Ülkelerin bayraklarını tahmin edin ve puan kazanın.
 - **Eğitim Modu**: Bayraklar hakkında bilgi edinin.
@@ -58,14 +56,9 @@ Flag Guess App, dünya ülkelerinin bayraklarını tanıma ve öğrenme üzerine
 - **Liderlik Tablosu**: Arkadaşlarınız ve diğer kullanıcılarla yarışın.
 
 ## Kullanılan Teknolojiler
-
 - **Expo**: React Native projeleri için hızlı geliştirme ortamı.
 - **React Native**: Uygulama arayüzünün geliştirilmesi için.
 - **Firebase**: Kullanıcı kimlik doğrulama, veri tabanı ve analitik işlemleri için.
-=======
-- **React Native**: Uygulama arayüzünün geliştirilmesi için.
-- **Firebase**: Kullanıcı kimlik doğrulama, veri tabanı ve analitik işlemleri için.
-- **Redux**: Uygulama durum yönetimi için.
 
 ## Kurulum
 
@@ -81,7 +74,6 @@ Proje dosyalarını klonlayarak uygulamayı çalıştırabilirsiniz. Adımlar:
     npm install
     ```
 
-
 3. **Expo'yu yükleyin** (Eğer Expo CLI sisteminizde kurulu değilse):
     ```bash
     npm install -g expo-cli
@@ -93,19 +85,6 @@ Proje dosyalarını klonlayarak uygulamayı çalıştırabilirsiniz. Adımlar:
     ```
 
 5. **Çevresel Değişkenleri Ayarlayın**:
-=======
-3. **Projenizi çalıştırın**:
-    - Android:
-      ```bash
-      npm run android
-      ```
-    - iOS:
-      ```bash
-      npm run ios
-      ```
-
-4. **Çevresel Değişkenleri Ayarlayın**:
-
     Proje kök dizininde `.env` dosyasını oluşturun ve Firebase yapılandırma bilgilerinizi ekleyin.
 
     Örnek `.env`:
@@ -135,7 +114,6 @@ Proje dosyalarını klonlayarak uygulamayı çalıştırabilirsiniz. Adımlar:
     git push origin yeni-ozellik
     ```
 5. **Pull Request** açarak katkıda bulunun.
-
 
 ## Expo QR Kod ile Test Etme
 Eğer Expo Go uygulamasını kullanıyorsanız, aşağıdaki adımlarla projenizi test edebilirsiniz:
