@@ -3,20 +3,54 @@
 Flag Guess App, dünya ülkelerinin bayraklarını tanıma ve öğrenme üzerine odaklanmış eğitici bir mobil uygulamadır. Kullanıcılar bayrakları tahmin ederek eğlenirken aynı zamanda bilgilerini geliştirebilirler.
 
 ## Ekran Görüntüleri
-Uygulamanın ekran görüntüleri ve tanıtım videosu ilerleyen zamanlarda eklenecektir.
-<<<<<<< HEAD
-![Giriş Ekranı](./assets/images/girisyap.jpg)
-![Kayıt Ekranı](./assets/images/kayıtol.jpg)
-![Şifremi Unuttum Ekranı](./assets/images/sifremiunuttum.jpg)
-![Ana Sayfa](./assets/images/anaekran.jpg)
-![Oyun Ekranı](./assets/images/oyunekranı.jpg)
-![Oyun Ekranı 2](./assets/images/oyunekranı1.jpg)
-![Oyun Ekranı 3](./assets/images/oyunekranı2.jpg)
-![Ayarlar](./assets/images/ayarlar.jpg)
-![İstatistikler](./assets/images/istatistikler.jpg)
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./assets/images/girisyap.jpg" alt="Giriş Ekranı" width="150" />
+      <br>Giriş Ekranı
+    </td>
+    <td align="center">
+      <img src="./assets/images/kayıtol.jpg" alt="Kayıt Ekranı" width="150" />
+      <br>Kayıt Ekranı
+    </td>
+    <td align="center">
+      <img src="./assets/images/sifremiunuttum.jpg" alt="Şifremi Unuttum Ekranı" width="150" />
+      <br>Şifremi Unuttum
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./assets/images/anaekran.jpg" alt="Ana Sayfa" width="150" />
+      <br>Ana Sayfa
+    </td>
+    <td align="center">
+      <img src="./assets/images/oyunekranı.jpg" alt="Oyun Ekranı" width="150" />
+      <br>Oyun Ekranı
+    </td>
+    <td align="center">
+      <img src="./assets/images/oyunekranı1.jpg" alt="Oyun Ekranı 2" width="150" />
+      <br>Oyun Ekranı 2
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="./assets/images/oyunekranı2.jpg" alt="Oyun Ekranı 3" width="150" />
+      <br>Oyun Ekranı 3
+    </td>
+    <td align="center">
+      <img src="./assets/images/ayarlar.jpg" alt="Ayarlar" width="150" />
+      <br>Ayarlar
+    </td>
+    <td align="center">
+      <img src="./assets/images/istatistikler.jpg" alt="İstatistikler" width="150" />
+      <br>İstatistikler
+    </td>
+  </tr>
+</table>
+
 =======
 
->>>>>>> 5c1e3bd765af1e833763cdda6f046a32c9aaf935
 ## Özellikler
 - **Bayrak Tahmin Oyunu**: Ülkelerin bayraklarını tahmin edin ve puan kazanın.
 - **Eğitim Modu**: Bayraklar hakkında bilgi edinin.
@@ -24,7 +58,7 @@ Uygulamanın ekran görüntüleri ve tanıtım videosu ilerleyen zamanlarda ekle
 - **Liderlik Tablosu**: Arkadaşlarınız ve diğer kullanıcılarla yarışın.
 
 ## Kullanılan Teknolojiler
-<<<<<<< HEAD
+
 - **Expo**: React Native projeleri için hızlı geliştirme ortamı.
 - **React Native**: Uygulama arayüzünün geliştirilmesi için.
 - **Firebase**: Kullanıcı kimlik doğrulama, veri tabanı ve analitik işlemleri için.
@@ -32,7 +66,6 @@ Uygulamanın ekran görüntüleri ve tanıtım videosu ilerleyen zamanlarda ekle
 - **React Native**: Uygulama arayüzünün geliştirilmesi için.
 - **Firebase**: Kullanıcı kimlik doğrulama, veri tabanı ve analitik işlemleri için.
 - **Redux**: Uygulama durum yönetimi için.
->>>>>>> 5c1e3bd765af1e833763cdda6f046a32c9aaf935
 
 ## Kurulum
 
@@ -48,7 +81,7 @@ Proje dosyalarını klonlayarak uygulamayı çalıştırabilirsiniz. Adımlar:
     npm install
     ```
 
-<<<<<<< HEAD
+
 3. **Expo'yu yükleyin** (Eğer Expo CLI sisteminizde kurulu değilse):
     ```bash
     npm install -g expo-cli
@@ -72,7 +105,7 @@ Proje dosyalarını klonlayarak uygulamayı çalıştırabilirsiniz. Adımlar:
       ```
 
 4. **Çevresel Değişkenleri Ayarlayın**:
->>>>>>> 5c1e3bd765af1e833763cdda6f046a32c9aaf935
+
     Proje kök dizininde `.env` dosyasını oluşturun ve Firebase yapılandırma bilgilerinizi ekleyin.
 
     Örnek `.env`:
@@ -103,7 +136,6 @@ Proje dosyalarını klonlayarak uygulamayı çalıştırabilirsiniz. Adımlar:
     ```
 5. **Pull Request** açarak katkıda bulunun.
 
-<<<<<<< HEAD
 
 ## Expo QR Kod ile Test Etme
 Eğer Expo Go uygulamasını kullanıyorsanız, aşağıdaki adımlarla projenizi test edebilirsiniz:
@@ -112,7 +144,3 @@ Eğer Expo Go uygulamasını kullanıyorsanız, aşağıdaki adımlarla projeniz
 2. Geliştirme ortamında oluşturulan QR kodu tarayın.
 3. Expo Go uygulamasında projeniz otomatik olarak yüklenecektir.
 =======
-## Lisans
-
-Bu proje MIT Lisansı ile lisanslanmıştır. Daha fazla bilgi için [LICENSE](LICENSE) dosyasını inceleyebilirsiniz.
->>>>>>> 5c1e3bd765af1e833763cdda6f046a32c9aaf935
